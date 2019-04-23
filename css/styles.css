@@ -1,0 +1,62 @@
+.block-1, .block-2, .block-3 {
+    border: 1px solid black;
+    height: 600px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box {
+    height: 300px;
+    margin: 10px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.width-600 {
+    width: 600px;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.orange-background {
+    background-color: orange;
+}
+
+.purple-background {
+    background-color: purple;
+}
+
+.align-top {
+    align-self: flex-start;
+}
+
+.block-2 {
+    flex-direction: column;
+    height: 1000px;
+}
+
+.block-3 {
+    height: 650px;
+    flex-wrap: wrap;
+}
